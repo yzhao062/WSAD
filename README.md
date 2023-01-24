@@ -4,12 +4,12 @@ This repo is constructed for collecting and categorizing papers about weakly sup
 
 ## Summary
 | Method | Reference | Venue | Backbone | Modalities | Key Idea | Official Code |
-|:--:|:---:|:---------:|:----------:|:---------:|:---------:|:---:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | OE | [ref]() | KDD'14 | - | Tabular | Anomaly feature representation learning|
 
 ## Catalogue
 ### AD with Incomplete Supervision
-Figure 1
+![Alt text](figures/Incomplete.pdf)
 #### Anomaly Feature Representation Learning
 **OE**\
 [Learning outlier ensembles:The best of both worlds–supervised and unsupervised](https://www.semanticscholar.org/paper/Learning-Outlier-Ensembles%3A-The-Best-of-Both-Worlds-Micenkov%C3%A1-McWilliams/a517bc0a071be0982150c38c8ac3c52093995106)\
