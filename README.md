@@ -5,11 +5,39 @@ This repo is constructed for collecting and categorizing papers about weakly sup
 ## Summary
 | Method | Reference | Venue | Backbone | Modalities | Key Idea | Official Code |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| OE | [ref]() | KDD'14 | - | Tabular | Anomaly feature representation learning|
+|OE  |\cite{micenkova2014learning}       | KDD'14  |    -     | Tabular |  Anomaly feature representation learning | ×|
+|XGBOD  |\cite{zhao2018xgbod}       | IJCNN'18  |   -      | Tabular |  Anomaly feature representation learning | √|
+|DeepSAD  |\cite{ruff2019deep}       | ICLR'20  | MLP        | Tabular |  Anomaly feature representation learning | √|
+|ESAD      |\cite{huang2020esad}      |    Preprint      |      MLP      |   Tabular      |  Anomaly feature representation learning                  | ×|
+|DSSAD        |\cite{feng2021learning}   | ICASSP'21         |    CNN        | Image/Video        |          Anomaly feature representation learning          | ×|
+|REPEN    | \cite{pang2018learning}  | KDD'18   | MLP        | Tabular |      Anomaly feature representation learning                   |  × |
+|AA-BiGAN | \cite{tian2022anomaly}   | IJCAI'22 | GAN        | Tabular |         Anomaly feature representation learning                | √ |
+|Dual-MGAN      |\cite{li2022dual}         |      TKDD'22     |    GAN       |    Tabular     |     Anomaly feature representation learning                    | √|
+|DevNet  | \cite{pang2019deepdevnet} | KDD'19   | MLP       | Tabular |   Anomaly score learning  |  √|
+|PReNet | \cite{pang2019deepprenet} |  Preprint        | MLP       | Tabular |  Anomaly score learning                         |  ×   |
+|FEAWAD | \cite{zhou2021feature}   | TNNLS'21  | AE        | Tabular |     Anomaly score learning                       | √    |
+|SNARE    | \cite{mcglohon2009snare} | KDD'09    | -          | Graph   |  Graph learning and label propagation |   ×  |
+|AESOP    | \cite{tamersoy2014guilt} | KDD'14    |  -         | Graph   |  Graph learning and label propagation  |   ×  |
+|SemiGNN  | \cite{wang2019semi}      | ICDM'19   | MLP+Attention | Graph   |  Graph learning and label propagation | ×    |
+|SemiGAD   | \cite{kumagai2021semi}   | IJCNN'21  | GNN       | Graph   |  Graph learning and label propagation  | × |
+|Meta-GDN | \cite{ding2021few}       | WWW'21    | GNN       | Graph   |   Graph learning and label propagation |  √   |
+|SemiADC  | \cite{meng2021semi}      | IS Journal'21 | GAN   | Graph | Graph learning and label propagation|  × |
+|SSAD     | \cite{gornitz2013toward} | JAIR'13   |  -         | Tabular |   Active learning                  |  ×   |
+|AAD      | \cite{das2016incorporating} | ICDM'16 | -         | Tabular |  Active learning   |   √  |
+|SLA-VAE    | \cite{huang2022semi}      |   WWW'22        |    VAE      |     Time series    |          Active learning                    | × |
+|Meta-AAD | \cite{zha2020meta}       | ICDM'20   | MLP       | Tabular |  Reinforcement learning |   √  |
+|DPLAN    | \cite{pang2021toward}     | KDD'21   | MLP       | Tabular |  Reinforcement learning  |  ×   |
+|GraphUCB | \cite{ding2019interactive} | WSDM'19 |   -        | Graph   |  Reinforcement learning  |  √   |
+
+
+
+
+
+
 
 ## Catalogue
 ### AD with Incomplete Supervision
-![Alt text](figures/Incomplete.pdf)
+![](figures/Incomplete.png)
 #### Anomaly Feature Representation Learning
 **OE**\
 [Learning outlier ensembles:The best of both worlds–supervised and unsupervised](https://www.semanticscholar.org/paper/Learning-Outlier-Ensembles%3A-The-Best-of-Both-Worlds-Micenkov%C3%A1-McWilliams/a517bc0a071be0982150c38c8ac3c52093995106)\
@@ -71,7 +99,7 @@ This repo is constructed for collecting and categorizing papers about weakly sup
 **SLA-VAE**\
 [A semi-supervised vae based active anomaly detection framework in multivariate time series for online systems](https://dl.acm.org/doi/abs/10.1145/3485447.3511984)
 ### AD with Inexact Supervision
-Figure 2
+![](figures/Inexact.png)
 #### MIL-based
 **MIL**\
 [Real-world anomaly detection in surveillance videos](https://ieeexplore.ieee.org/document/8578776)\
@@ -113,7 +141,7 @@ Figure 2
 [Indirectly supervised anomaly detection of clinically meaningful health events from smart home data](https://dl.acm.org/doi/10.1145/3439870)\
 [Code Link](https://github.com/jb3dahmen/indirectsupervision)
 ### AD with Inaccurate Supervision
-Figure 3
+![](figures/Inaccurate.png)
 #### Ensemble Learning
 **LAC**\
 [Fraud Detection under Multi-Sourced Extremely Noisy Annotations](https://dl.acm.org/doi/10.1145/3459637.3482433)\
