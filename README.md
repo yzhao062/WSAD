@@ -3,7 +3,7 @@
 This repo is constructed for collecting and categorizing papers about weakly supervised anomaly detection models according to our survey paper——*Weakly Supervised Anomaly Detection: A Survey*
 
 ## Summary
-Tabel1
+Tabel1...
 
 ## Catalogue
 ### AD with Incomplete Supervision
