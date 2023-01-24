@@ -1,9 +1,11 @@
-# Weakly Supervised Anomaly Detection: A Survey
+# Weakly-supervised Anomaly Detection: A Survey
 
 This repo is constructed for collecting and categorizing papers about weakly supervised anomaly detection models according to our survey paper——*Weakly Supervised Anomaly Detection: A Survey*
 
 ## Summary
-Tabel1...
+| Method | Reference | Venue | Backbone | Modalities | Key Idea | Official Code |
+|:--:|:---:|:---------:|:----------:|:---------:|:---------:|:---:|
+| OE | [ref]() | KDD'14 | - | Tabular | Anomaly feature representation learning|
 
 ## Catalogue
 ### AD with Incomplete Supervision
