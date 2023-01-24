@@ -5,29 +5,52 @@ This repo is constructed for collecting and categorizing papers about weakly sup
 ## Summary
 | Method | Reference | Venue | Backbone | Modalities | Key Idea | Official Code |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|OE  |\cite{micenkova2014learning}       | KDD'14  |    -     | Tabular |  Anomaly feature representation learning | ×|
-|XGBOD  |\cite{zhao2018xgbod}       | IJCNN'18  |   -      | Tabular |  Anomaly feature representation learning | √|
-|DeepSAD  |\cite{ruff2019deep}       | ICLR'20  | MLP        | Tabular |  Anomaly feature representation learning | √|
-|ESAD      |\cite{huang2020esad}      |    Preprint      |      MLP      |   Tabular      |  Anomaly feature representation learning                  | ×|
-|DSSAD        |\cite{feng2021learning}   | ICASSP'21         |    CNN        | Image/Video        |          Anomaly feature representation learning          | ×|
-|REPEN    | \cite{pang2018learning}  | KDD'18   | MLP        | Tabular |      Anomaly feature representation learning                   |  × |
-|AA-BiGAN | \cite{tian2022anomaly}   | IJCAI'22 | GAN        | Tabular |         Anomaly feature representation learning                | √ |
-|Dual-MGAN      |\cite{li2022dual}         |      TKDD'22     |    GAN       |    Tabular     |     Anomaly feature representation learning                    | √|
-|DevNet  | \cite{pang2019deepdevnet} | KDD'19   | MLP       | Tabular |   Anomaly score learning  |  √|
-|PReNet | \cite{pang2019deepprenet} |  Preprint        | MLP       | Tabular |  Anomaly score learning                         |  ×   |
-|FEAWAD | \cite{zhou2021feature}   | TNNLS'21  | AE        | Tabular |     Anomaly score learning                       | √    |
-|SNARE    | \cite{mcglohon2009snare} | KDD'09    | -          | Graph   |  Graph learning and label propagation |   ×  |
-|AESOP    | \cite{tamersoy2014guilt} | KDD'14    |  -         | Graph   |  Graph learning and label propagation  |   ×  |
-|SemiGNN  | \cite{wang2019semi}      | ICDM'19   | MLP+Attention | Graph   |  Graph learning and label propagation | ×    |
-|SemiGAD   | \cite{kumagai2021semi}   | IJCNN'21  | GNN       | Graph   |  Graph learning and label propagation  | × |
-|Meta-GDN | \cite{ding2021few}       | WWW'21    | GNN       | Graph   |   Graph learning and label propagation |  √   |
-|SemiADC  | \cite{meng2021semi}      | IS Journal'21 | GAN   | Graph | Graph learning and label propagation|  × |
-|SSAD     | \cite{gornitz2013toward} | JAIR'13   |  -         | Tabular |   Active learning                  |  ×   |
-|AAD      | \cite{das2016incorporating} | ICDM'16 | -         | Tabular |  Active learning   |   √  |
-|SLA-VAE    | \cite{huang2022semi}      |   WWW'22        |    VAE      |     Time series    |          Active learning                    | × |
-|Meta-AAD | \cite{zha2020meta}       | ICDM'20   | MLP       | Tabular |  Reinforcement learning |   √  |
-|DPLAN    | \cite{pang2021toward}     | KDD'21   | MLP       | Tabular |  Reinforcement learning  |  ×   |
-|GraphUCB | \cite{ding2019interactive} | WSDM'19 |   -        | Graph   |  Reinforcement learning  |  √   |
+Incomplete Supervision
+|OE  | [ref]()       | KDD'14  |    -     | Tabular |  Anomaly feature representation learning | ×|
+|XGBOD  |[ref]()       | IJCNN'18  |   -      | Tabular |  Anomaly feature representation learning | [√]()|
+|DeepSAD  |[ref]()       | ICLR'20  | MLP        | Tabular |  Anomaly feature representation learning | [√]()|
+|ESAD      |[ref]()      |    Preprint      |      MLP      |   Tabular      |  Anomaly feature representation learning                  | ×|
+|DSSAD        |[ref]()   | ICASSP'21         |    CNN        | Image/Video        |          Anomaly feature representation learning          | ×|
+|REPEN    | [ref]()  | KDD'18   | MLP        | Tabular |      Anomaly feature representation learning                   |  × |
+|AA-BiGAN | [ref]()   | IJCAI'22 | GAN        | Tabular |         Anomaly feature representation learning                | [√]() |
+|Dual-MGAN      |[ref]()        |      TKDD'22     |    GAN       |    Tabular     |     Anomaly feature representation learning                    | [√]()|
+|DevNet  | [ref]() | KDD'19   | MLP       | Tabular |   Anomaly score learning  |  [√]()|
+|PReNet | [ref]() |  Preprint        | MLP       | Tabular |  Anomaly score learning                         |  ×   |
+|FEAWAD | [ref]()   | TNNLS'21  | AE        | Tabular |     Anomaly score learning                       | [√]()    |
+|SNARE    | [ref]() | KDD'09    | -          | Graph   |  Graph learning and label propagation |   ×  |
+|AESOP    | [ref]() | KDD'14    |  -         | Graph   |  Graph learning and label propagation  |   ×  |
+|SemiGNN  | [ref]()      | ICDM'19   | MLP+Attention | Graph   |  Graph learning and label propagation | ×    |
+|SemiGAD   | [ref]()   | IJCNN'21  | GNN       | Graph   |  Graph learning and label propagation  | × |
+|Meta-GDN | [ref]()       | WWW'21    | GNN       | Graph   |   Graph learning and label propagation |  [√]()   |
+|SemiADC  | [ref]()      | IS Journal'21 | GAN   | Graph | Graph learning and label propagation|  × |
+|SSAD     | [ref]() | JAIR'13   |  -         | Tabular |   Active learning                  |  ×   |
+|AAD      | [ref]() | ICDM'16 | -         | Tabular |  Active learning   |   [√]()  |
+|SLA-VAE    | [ref]()      |   WWW'22        |    VAE      |     Time series    |          Active learning                    | × |
+|Meta-AAD | [ref]()      | ICDM'20   | MLP       | Tabular |  Reinforcement learning |   [√]()  |
+|DPLAN    | [ref]()     | KDD'21   | MLP       | Tabular |  Reinforcement learning  |  ×   |
+|GraphUCB | [ref]() | WSDM'19 |   -        | Graph   |  Reinforcement learning  |  [√]()   |
+Inexact Supervision
+|MIL          |  [ref]()   | CVPR'18 | MLP          |  Video  |  Multiple Instance Learning  | [√]()        
+|TCN-IBL       |  [ref]() | ICIP'19  | CNN          | Video   |  Multiple Instance Learning  |  ×       
+|AR-Net        |  [ref]()     |ICME'20   |  MLP         | Video   | Multiple Instance Learning   | [√]()        
+|RTFM         |  [ref]()    | ICCV'21  | CNN+Attention |  Video  |  Multiple Instance Learning  | [√]()            
+|Motion-Aware  |  [ref]()     | BMVC'19  | AE+Attention| Video   |  Multiple Instance Learning  |   ×     
+|CRF-Attention    |  [ref]() |ICCV'21   | TRN+Attention    |  Video  |  Multiple Instance Learning  |      ×   
+|MPRF         |  [ref]()       |IJCAI'21  | MLP+Attention     |  Video  |  Multiple Instance Learning  |   ×      
+|MCR         |  [ref]()      |ICME'22   |   MLP+Attention   | Video  |   Multiple Instance Learning |  ×        
+|XEL          |   [ref]()      |  SPL'21  |  MLP          |  Video  |   Cross-epoch Learning       | [√]()            
+|MIST          |  [ref]()  |CVPR'21   | MLP+Attention     |  Video  |  Multiple Instance Learning  |    [√]()      
+|MSLNet       |  [ref]()         | AAAI'22  | Transformer    |   Video |   Multiple Instance Learning |  [√]()        
+|SRF             |  [ref]()    | SPL'20   |  MLP          |  Video |  Self Reasoning |  ×            
+|WETAS       |  [ref]()     | ICCV'21  | MLP           |   Time-series/Video |   Dynamic Time Warping       |    ×            
+|Inexact AUC   |  [ref]()  | ML Journal'20  |  AE   |  Tabular  |  AUC maximization  |    ×      
+|Isudra           |[ref]() |  TIST'21  |   -   |Time-series  |  Bayesian optimization  |   [√]()
+Inaccurate Supervision
+|LAC |    [ref]()    | CIKM'21 |  MLP/GBDT  | Tabular         | Ensemble learning |    ×  
+|ADMoE |    [ref]()    | AAAI'23 |  Agnostic  | Tabular         | Ensemble learning |    [√]()  
+|BGPAD  |    [ref]()    | ICNP'21 | LSTM+Attention   |   Time series       | Denoising network |   [√]()   
+|SemiADC  | [ref]()      | IS Journal'21 | GAN   | Graph | Denoising network|  × 
+|TSN |    [ref]()    | CVPR'19 | GCN   |   Video       |GCN  |   [√]()   
 
 
 
