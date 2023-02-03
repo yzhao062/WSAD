@@ -191,7 +191,7 @@ We first summarize and further categorize existing WSAD algorithms into three ca
 One can easily reproduce the experimental results in our paper by running the [run.py](experiments/run.py) python file
 in the [experiments](experiments) folder.
 
-| Method | $\gamma_{l}=1%$ | $\gamma_{l}=5%$ | $\gamma_{l}=25%$ | $\gamma_{l}=50%$ |
+| Method | $\gamma_{l}=1$\% | $\gamma_{l}=5$\% | $\gamma_{l}=25$\% | $\gamma_{l}=50$\% |
 |:--:|:--:|:--:|:--:|:--:|
 | |  | AUC-ROC  |   |   |
 |XGBOD | 80.03  | 86.68  | 93.20  | 95.28  |
