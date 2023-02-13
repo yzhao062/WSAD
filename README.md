@@ -1,6 +1,6 @@
 # Weakly-supervised Anomaly Detection: A Survey
 
-This repo is constructed for collecting and categorizing papers about weakly supervised anomaly detection models according to our survey paper——*Weakly Supervised Anomaly Detection: A Survey*
+This repo is constructed for collecting and categorizing papers about weakly supervised anomaly detection models according to our survey paper——[*Weakly Supervised Anomaly Detection: A Survey*](https://arxiv.org/abs/2302.04549)
 
 ## Summary and categorization of weakly supervised anomaly detection (WSAD) algorithms
 We first summarize and further categorize existing WSAD algorithms into three categories, including: 
